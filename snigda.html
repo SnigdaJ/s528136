@@ -1,0 +1,186 @@
+<html>
+<head>
+  <title>Snigda's Foodle Website</title>
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/Snigda.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-default navbar-prmy">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Snigda</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="Home.html">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="About.html">About</a></li>
+          <li class="active"><a href="snigda.html">Foodle Page</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right scIcons">
+         <li>
+        <a href="https://github.com/SnigdaJ" target="_blank" ><i class="fa fa-github-square" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="https://bitbucket.org/Snigda/" target="_blank" ><i class="fa fa-bitbucket-square" aria-hidden="true"></i></a>
+      </li>
+      
+      <li>
+        <a href="https://www.facebook.com/snigda.reddy.3" target="_blank"  ><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
+
+<div class="container">
+  <div class="row">   
+    <div class="col-md-8">
+
+<p><b><h4>Basically in my website we have provided the facility to order food from any restaurant from home itself  and get the bill also and they can go to the restaurant and eat comfortably without any delay.</h4></b></p><br><br>
+<b>Enter the details: </b><br><br>
+<form name="myform">
+    <b>First name</b>:
+    <input type="text" name="fname" value="" required>
+    <br><br>
+    <b>Last name</b>:
+    <input type="text" name="lname" value="" required>
+    <br><br>
+    <b>Select the restaurant:</b>
+  
+</select><br><br>
+<input type="checkbox"  id="mcd"  name="rst" value="a">Mc Donalds<br>
+
+<input type="checkbox" id="kfc"  name="rst" value="VB">KFC<br>
+
+
+
+<div id="mcdMnu">
+    <b>Menu for Mcd:<br>
+    <input type="checkbox" value="10.00" id="cbx1" /><label>Veg Burger-15$</label>
+    <label >Quantity</label>
+         
+                <select id="quan" name='quan1' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x">1</option>
+                <option value="2.00" id="y">2</option>
+               </select>
+                <br/>
+    <input type="checkbox" value="20.00" id="cbx2" /><label>Chicken Burger-20$</label>
+    <label >Quantity</label>
+    <select id="quan1" name='quan1' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x1">1</option>
+                <option value="2.00" id="y1">2</option>
+               </select>
+                <br/>
+    <input type="checkbox" value="30.00" id="cbx3" /><label>Veg Meal-40$</label>
+    <label >Quantity</label>
+    <select id="quan2" name='quan2' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x2">1</option>
+                <option value="2.00" id="y2">2</option>
+               </select>
+                <br/>
+    <input type="checkbox" value="40.00" id="cbx4" /><label>Chicken Meal-40$</label>
+    <label >Quantity</label><br>
+    <select id="quan3" name='quan1' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x3">1</option>
+                <option value="2.00" id="y3">2</option>
+               </select>
+                <br/>
+
+    
+    
+</div>
+
+<div id="kfcMnu">
+   
+    <b>Menu for KFC:</b><br>
+    <input type="checkbox" value="15.00" id="cbkx1" /><label>Veg Wings-15$</label>
+     <select id="quan4" name='quan1' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x4">1</option>
+                <option value="2.00" id="y4">2</option>
+               </select>
+                <br/>
+
+    <input type="checkbox" value="20.00" id="cbkx2" /><label>Chicken Burger-20$</label>
+     <label >Quantity</label>
+    <select id="quan5" name='quan1' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x5">1</option>
+                <option value="2.00" id="y5">2</option>
+               </select>
+                <br/>
+    <input type="checkbox" value="30.00" id="cbkx3" /><label>Chicken Wigs-40$</label>
+     <label >Quantity</label>
+    <select id="quan6" name='quan1' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x6">1</option>
+                <option value="2.00" id="y6">2</option>
+               </select>
+                <br/>
+    <input type="checkbox" value="40.00" id="cbkx4" /><label>Chicken Meal-40$</label>
+     <label >Quantity</label>
+    <select id="quan7" name='quan1' >
+                <option value="None">Select quantity</option>
+                <option value="1.00" id="x7">1</option>
+                <option value="2.00" id="y7">2</option>
+               </select>
+                <br/>
+    </div><br>
+    
+
+     
+                
+               <input type="checkbox" value="5.00" id="cbd" />
+               <b><label>Dropping</b></label><br>
+              
+               <input type="checkbox" value="0.00" id="cbd1" />
+               <b><label>Pick-up</b></label><br><br></b>
+ 
+   
+    
+
+ <input type="submit" onclick="myFunction()" id="gt"  value="Order"><br><br>
+ <script>
+function myFunction() {
+    alert("For every order 2% taxes are included");
+}
+</script>
+<b>Total Amount:</b>
+<input type="text" id="grandtotal"/><br><br>
+ 
+
+
+<input type="reset" value="Reset"><br>
+
+</form>
+
+<h3>Thank You!</h3>
+
+
+<img src="food.png" style="width:1300px;height:300px;" alt="">
+<div class="footer">
+&copy;Snigda's Website Student Id:S528136@mail.nwmissouri.edu
+ </div>
+
+</body>
+<script src="jquery-3.1.0.min.js" ></script>
+<script src="eg1.js"></script>
+</html>
